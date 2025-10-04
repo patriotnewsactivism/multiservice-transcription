@@ -1,11 +1,11 @@
 {
   "name": "multiservice-transcription",
   "version": "1.0.0",
-  "private": true",
+  "private": true,
   "type": "module",
   "main": "server/server.js",
   "scripts": {
-    "install": "npm ci && cd client && npm ci",
+    "bootstrap": "npm install && cd client && npm install",
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
     "dev:server": "nodemon server/server.js",
     "dev:client": "cd client && npm run dev",
