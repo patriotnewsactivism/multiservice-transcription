@@ -1,0 +1,7 @@
+node_modules
+client/node_modules
+uploads
+transcripts
+*.log
+Dockerfile
+docker-compose.yml
