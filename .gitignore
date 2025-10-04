@@ -3,3 +3,5 @@ client/node_modules
 uploads
 transcripts
 .env
+# Local Netlify folder
+.netlify
